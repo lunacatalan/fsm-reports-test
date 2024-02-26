@@ -1,0 +1,35 @@
+{
+  "metrics": [
+    {
+      "geographyId": "eez",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "eez",
+      "sketchId": "3251c2cf-90c6-48f2-b254-9aa8cd01ffac",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "randomSketch"
+      }
+    }
+  ],
+  "sketch": {
+    "type": "Feature",
+    "properties": {
+      "id": "3251c2cf-90c6-48f2-b254-9aa8cd01ffac",
+      "isCollection": false,
+      "userAttributes": [],
+      "sketchClassId": "201ca7e0-ead5-493b-8f10-4dfa37afb9d8",
+      "createdAt": "2024-02-19T18:11:21.173Z",
+      "updatedAt": "2024-02-19T18:11:21.173Z",
+      "name": "randomSketch"
+    },
+    "id": "3251c2cf-90c6-48f2-b254-9aa8cd01ffac",
+    "bbox": [
+      163.3370959859354,
+      8.217595706954205,
+      163.9636025969827,
+      8.806699275253767
+    ],
+    "geometry": null
+  }
+}
