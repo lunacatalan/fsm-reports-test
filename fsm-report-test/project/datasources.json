@@ -41,8 +41,6 @@
     },
     "idProperty": "GEONAME",
     "nameProperty": "GEONAME",
-    "classKeys": [],
-    "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/global-eez-mr-v12.fgb",
     "propertyFilter": {
       "property": "GEONAME",
       "values": [
@@ -54,7 +52,9 @@
       -1.171388888586307,
       165.67611110000007,
       13.44070556000014
-    ]
+    ],
+    "classKeys": [],
+    "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/global-eez-mr-v12.fgb"
   },
   {
     "datasourceId": "world",
@@ -158,5 +158,19 @@
     "layerName": "meow_ecos",
     "classKeys": [],
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/meow-ecos.fgb"
+  },
+  {
+    "src": "data/src/current-raster/offshore/inputs/features/yesson_octocorals.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "octocorals",
+    "formats": [
+      "tif"
+    ],
+    "created": "2024-02-26T19:27:37.699Z",
+    "lastUpdated": "2024-02-26T19:27:37.699Z",
+    "noDataValue": -3.3999999521443642e+38,
+    "measurementType": "quantitative",
+    "precalc": true
   }
 ]
