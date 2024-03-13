@@ -10,4 +10,34 @@
           "layerId": ""
       }
   ]
+},
+{
+  "metricId": "coralReef",
+  "type": "areaOverlap",
+  "classes": [{
+    "classId": "reefextent",
+    "display": "Coral Reef",
+    "datasourceId": "reefextent" 
+  }]
+},
+{
+  "metricId": "benthicHabitat",
+  "type": "areaOverlap",
+  "layerId": "bsj_82ks", 
+  "classes": [{
+    "classId": "Sand",
+    "classKey": "class",
+    "display": "Sand",
+    "datasourceId": "benthic"
+  }, {
+    "classId": "Rubble",
+    "classKey": "class",
+    "display": "Rubble",
+    "datasourceId": "benthic"
+  }, {
+    "classId": "Rock",
+    "classKey": "class",
+    "display": "Rock",
+    "datasourceId": "benthic"
+  }]
 }]

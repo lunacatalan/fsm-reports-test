@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "global-eez-mr-v12-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 131259350503.85864
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "reefextent-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 358778182.9721784
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "global-eez-mr-v12-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "reefextent-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 469
+  }
+]
