@@ -41,8 +41,6 @@
     },
     "idProperty": "GEONAME",
     "nameProperty": "GEONAME",
-    "classKeys": [],
-    "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/global-eez-mr-v12.fgb",
     "propertyFilter": {
       "property": "GEONAME",
       "values": [
@@ -54,7 +52,9 @@
       -15.878383591829206,
       -170.54265693017294,
       -10.960825304544073
-    ]
+    ],
+    "classKeys": [],
+    "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/global-eez-mr-v12.fgb"
   },
   {
     "datasourceId": "world",
@@ -158,5 +158,41 @@
     "layerName": "meow_ecos",
     "classKeys": [],
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/meow-ecos.fgb"
+  },
+  {
+    "datasourceId": "reefextent",
+    "geo_type": "vector",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "precalc": true,
+    "layerName": "Samoan Exclusive Economic Zone",
+    "classKeys": [],
+    "created": "2024-03-13T20:47:03.713Z",
+    "lastUpdated": "2024-03-13T20:47:03.713Z",
+    "src": "data/src/Samoan-EEZ/Reef-Extent/reefextent.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Samoan-EEZ/Benthic-Map/benthic.fgb",
+    "layerName": "Samoan Exclusive Economic Zone",
+    "geo_type": "vector",
+    "datasourceId": "benthic",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "classKeys": [
+      "class"
+    ],
+    "created": "2024-03-13T21:00:32.107Z",
+    "lastUpdated": "2024-03-13T21:00:32.107Z",
+    "propertiesToKeep": [
+      "class"
+    ],
+    "explodeMulti": true,
+    "precalc": true
   }
 ]
